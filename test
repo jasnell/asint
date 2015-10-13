@@ -1,0 +1,23 @@
+{
+  "@context": ["http://www.w3.org/ns/activitystreams#", {
+    "foo": "urn:foo:",
+    "bar": "foo:bar"
+  }],
+  "@id": "http://example.org/foo",
+  "@type": "Like",
+  "displayName": "this is a test",
+  "foo:bar": 1,
+  "actor": [
+    {
+      "@id": "http://example.org/foo",
+      "displayName": "actor",
+      "location": {
+        "@type": "Place",
+        "longitude": 123.123
+      }
+    },
+    {
+      "@type": "http://example.org/bar"
+    }
+  ]
+}

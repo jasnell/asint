@@ -1,0 +1,19 @@
+{
+  "name": "asint",
+  "version": "0.0.1",
+  "description": "AS 2.0 Interrogator",
+  "main": "app.js",
+  "bin": {
+    "asint": "./app.js"
+  },
+  "author": "James M Snell <jasnell@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "activitystrea.ms": "^0.8.0",
+    "commander": "^2.9.0",
+    "json-pointer": "^0.3.0",
+    "linkeddata-vocabs": "^0.7.0",
+    "through2": "^2.0.0"
+  }
+}
